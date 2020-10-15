@@ -1,0 +1,145 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Times New Roman', Times, serif text center;
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .title{
+        font-size: 15em;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    /* ------- Header ------- */
+
+    header{
+        width: auto;
+        height: 8rem;
+        /*position: absolute;*/
+        margin-top: 0em;
+        margin-left: 0em;
+    }
+
+    nav{
+        width: 100%;
+        display: inline-flex;
+        align-items: center; 
+        justify-content: space-between;
+        /* background-image: url(img/headerbackground.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center; */
+    }
+
+    nav h3{
+        width: 100%;
+        display: inline-flex;
+
+
+    }
+
+    nav ul{
+        list-style: none;
+    }
+
+    nav li{
+        display: inline-block;
+        margin: 1em;
+        
+    }
+
+    nav a{
+        font-weight: 900;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        /* the following padding allows more surface area to click
+        beneficial for mobile users */
+        padding: 0.5em;
+        color: green;
+
+    }
+
+    nav a:hover,
+    nav a:focus {
+        color: purple;
+    }
+
+    .install {
+        background-image: url(img/installbackground.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        /* padding of top and bottom, none on the left and right */
+        padding: 20em 0;
+    }
+
+    .install h1{
+        color: black;
+    }
+
+    .graph {
+        background-image: url(img/graph.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        /* padding of top and bottom, none on the left and right */
+        padding: 20em 0;
+    }
+
+    .receipt {
+        background-image: url(img/receipt.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        /* padding of top and bottom, none on the left and right */
+        padding: 20em 0;
+    }
+
+    .goals {
+        background-image: url(img/goals.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        /* padding of top and bottom, none on the left and right */
+        padding: 20em 0;
+    }
+
+    .about-text{
+        background-color: #232323;
+        padding: 20em;
+        width: 100vw;
+        margin-left: -2.5%;
+        outline: 2px solid green;
+        outline-offset: -2.5em;
+        color: purple;
+        position: relative;
+    }
+
+    .about-text h1{
+        color:green;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 0.3em;
+        background: #232323;
+        padding: 0 0.25em;
+    }
+
+    footer{
+        width: auto;
+        height: 8rem;
+    }
